@@ -1,0 +1,152 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+header {
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  padding: 5px 0 5px 10px;
+  border-bottom: solid 1px #ddd;
+  column-gap: 8px;
+  align-items: end;
+}
+header img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2px;
+}
+header span{
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 800;
+}
+.hamburguer{
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hamburguer::after{
+    content: "\2630";
+    font-size: 2rem;
+}
+.hamburguer.show::after{
+    content: "\00D7";
+    font-size: 2rem;
+}
+.navigation{
+    display: none;
+    background-color: cadetblue;
+}
+.navigation.show{
+    display: block;
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+.navigation a{
+    display: block;
+    padding: .8rem 10px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+.navigation li.current{
+    background-color: lightseagreen;
+}
+.navigation a:hover{
+    background-color: darkcyan;
+}
+h1{
+    margin-left: 10px;
+}
+footer{
+    background-color: cadetblue;
+    padding: 1rem 10px;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
+.social img{
+    width: 22px;
+    height: 22px;
+}
+.social a:hover{
+    background-color: darkcyan;
+}
+.card{
+    background-color: lightblue;
+    margin-bottom: 2rem;
+    padding: 0;
+    padding-top: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+.card h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightseagreen;
+    border-radius: 12px;
+}
+.card p{
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.student img{
+    width: 400px;
+    height: auto;
+    padding: 3px;
+}
+.student{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.filter button{
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #eee;
+}
+.filter button:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+#courses-list{
+    display: flex;
+    flex-direction: column;
+}
+#courses-list span{
+    background-color: lightcyan;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+#credits{
+    text-align: center;
+}
