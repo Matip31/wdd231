@@ -1,0 +1,60 @@
+{
+  "companies": [
+    {
+      "name": "Plaza Italia Shopping",
+      "address": "Av. Italia 4250",
+      "phone": "2618 7904",
+      "membership": 3,
+      "image": "plaza-italia.webp",
+      "weburl": "http://www.plazaitaliashopping.com.uy/"
+    },
+     {
+      "name": "El Naranjo",
+      "address": "Orinoco 5030",
+      "phone": "2929 2929",
+      "membership": 2,
+      "image": "naranjo.webp",
+      "weburl": "https://www.elnaranjo.com.uy/"
+    },
+     {
+      "name": "Heladeria Del Abuelo",
+      "address": "Orinoco 5052",
+      "phone": "099 338 566",
+      "membership": 1,
+      "image": "abuelo.webp",
+      "weburl": "http://heladeriadelabuelo.com.uy/"
+    },
+     {
+      "name": "Club y Estadio Malvin",
+      "address": "Av Enrique Legrand 4880",
+      "phone": "2613 4147",
+      "membership": 3,
+      "image": "club-malvin.webp",
+      "weburl": "http://www.clubmalvin.uy/"
+    },
+     {
+      "name": "Cuatro Store",
+      "address": "Av Gral Rivera 5194",
+      "phone": "099 681 381",
+      "membership": 1,
+      "image": "cuatro-store.webp",
+      "weburl": "https://cuatrostore.com.uy/"
+    },
+     {
+      "name": "Royal Enfield",
+      "address": "Av. Italia 3978",
+      "phone": "094 512 669",
+      "membership": 1,
+      "image": "royal-enfield.webp",
+      "weburl": "https://royalenfielduy.com/"
+    },
+     {
+      "name": "Soprano's Malvin",
+      "address": "Rio de la Plata 1395",
+      "phone": "2619 4691",
+      "membership": 2,
+      "image": "soprano-malvin.webp",
+      "weburl": "http://www.sopranos.com.uy/"
+    }
+  ]
+}

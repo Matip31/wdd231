@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the directory page for Montevideo's chamber of commerce.">
+    <meta name="author" content="Matias Ponce">
+    <meta property="og:description"
+        content="The directory for Montevideo's chamber of commerce. It provides a list of local business and other organizations that belong to the chamber of commerce.">
+    <meta property="og:title" content="Directory- Montevideo Chamber of Commerce">
+    <meta property="og:url" content="https://matip31.github.io/wdd231/">
+    <meta property="og:image"
+        content="https://st2.depositphotos.com/2481271/9230/i/950/depositphotos_92309310-stock-photo-man-drinking-mate.jpg">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="scripts/chamber.js" defer></script>
+    <title>Matias Ponce's Chamber</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/buildings.svg" alt="Logo" width="1" height="1">
+        <span>Montevideo's Chamber of Commerce</span>
+        <button id="ham" aria-label="Open navigation menu" class="hamburguer"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li>
+                <a href="index.html" id="home">Home</a>
+            </li>
+            <li class="current">
+                <a href="#" id="directory">Directory</a>
+            </li>
+            <li>
+                <a href="#" id="join">Join</a>
+            </li>
+            <li>
+                <a href="#" id="discover">Discover</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Directory</h1>
+        <div class="menu">
+		    <button id="grid">Grid</button>
+		    <button id="list">List</button>
+	    </div>
+        <div id="members" class="grid"></div>
+
+    </main>
+    <footer>
+        <div class="footer-column">
+            <span><strong>Montevideo's Chamber of Commerce</strong></span>
+            <span>Av Italia 2332</span>
+            <span>Montevideo, Uruguay</span>
+            <span>info@montevideocc.org</span>
+            <span>(598) 98123123</span>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/mati.ponce.71" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook" width="16" height="16"></a>
+            <a href="https://www.instagram.com/matip31" target="_blank"><img src="images/instagram.svg" alt="instagram"
+                    width="16" height="16"></a>
+            <a href="www.linkedin.com/in/matip31" target="_blank"><img src="images/linkedin.svg" alt="Linkedin"
+                    width="16" height="16"></a>
+            <a href="https://github.com/Matip31" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+        </div>
+        <div class="footer-column">
+            <span>WDD231 Class Project</span>
+            <span>Matias Ponce</span>
+            <span>© <span id="currentyear"></span> Montevideo's Chamber of Commerce</span>
+        <span id="lastModified"></span>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
