@@ -124,7 +124,7 @@ function displaySpotlights(members){
         container.innerHTML += `
         <article class="spotlight">
 
-            <img src="${member.image}" alt="${member.name} logo">
+            <img src="images/${member.image}" alt="${member.name} logo">
 
             <h3>${member.name}</h3>
 

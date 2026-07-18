@@ -235,18 +235,13 @@ footer{
     padding: 1rem;
 }
 
-.card {
-    background: #f5f5f5;
+.events {
+    background: lightblue;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,.1);
 }
 
-.spotlight img {
-    width: 120px;
-    display: block;
-    margin: 1rem auto;
-}
 
 #spotlights {
     display: grid;
@@ -257,7 +252,7 @@ footer{
 .spotlight {
     text-align: center;
     padding: 1rem;
-    background: white;
+    background: lightblue;
     border-radius: 8px;
     box-shadow:0 0 10px rgba(0,0,0,.1);
 }
