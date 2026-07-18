@@ -26,4 +26,35 @@
     .social{
         align-items: center;
     }
+    .hero img {
+        height: 450px;
+    }
+
+    .hero-content {
+        left: 8%;
+        right: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+
+    .home-grid .card:last-child {
+        grid-column: span 3;
+    }
+
+    #spotlights {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .spotlight img {
+        width: 120px;
+        height: 120px;
+    }
 }
