@@ -441,4 +441,13 @@ dialog::backdrop{
 .join-main h1{
         text-align: center;
         color: #234f55;
-    }
+}
+.membership-cards h2{
+    margin: 0 0 1rem;
+    padding-bottom: .75rem;
+    text-align: center;
+    color: #234f55;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    border-bottom: 3px solid #6ea4a6;
+}
