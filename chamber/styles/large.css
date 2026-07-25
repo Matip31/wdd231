@@ -61,6 +61,9 @@
 
         grid-template-columns:2fr 1fr;
         align-items: start;
-
+    }
+    .join-main h1{
+        grid-column: 1/-1;
+        text-align: center;
     }
 }

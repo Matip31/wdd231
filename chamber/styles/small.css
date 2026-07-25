@@ -312,6 +312,11 @@ footer{
     opacity:0;
     transform:translateY(40px);
     animation:fadeUp .8s forwards;
+    background:white;
+    border-left:8px solid #6ea4a6;
+    border-radius:10px;
+    padding:1.25rem;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
 }
 .join-card:nth-child(1){
     animation-delay:.2s;
@@ -397,13 +402,6 @@ input[type=submit]:hover{
     flex-direction:column;
     gap:1.5rem;
 }
-.join-card{
-    background:white;
-    border-left:8px solid #6ea4a6;
-    border-radius:10px;
-    padding:1.25rem;
-    box-shadow:0 2px 8px rgba(0,0,0,.15);
-}
 .join-card h3{
     margin-top:0;
     color:#234f55;
@@ -440,3 +438,7 @@ dialog::backdrop{
     border-radius:6px;
     cursor:pointer;
 }
+.join-main h1{
+        text-align: center;
+        color: #234f55;
+    }
