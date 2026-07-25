@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page contains a form for someone to join the Chamber of Commerce">
+    <meta name="author" content="Matias Ponce">
+    <meta property="og:description"
+        content="The Join page for Montevideo's chamber of commerce. It has a form where interested people can apply to join the chamber.">
+    <meta property="og:title" content="Home- Montevideo Chamber of Commerce">
+    <meta property="og:url" content="https://matip31.github.io/wdd231/">
+    <meta property="og:image"
+        content="https://matip31.github.io/wdd231/images/matias-picture.webp">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="scripts/join.js" defer></script>
+    <title>Montevideo's Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/buildings.svg" alt="Logo" width="1" height="1">
+        <span>Montevideo's Chamber of Commerce</span>
+        <button id="ham" aria-label="Open navigation menu" class="hamburguer"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current">
+                <a href="index.html" id="home">Home</a>
+            </li>
+            <li>
+                <a href="#" id="directory">Directory</a>
+            </li>
+            <li>
+                <a href="#" id="join">Join</a>
+            </li>
+            <li>
+                <a href="#" id="discover">Discover</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="join-main">
+        <form method="get" action="thankyou.html">
+
+            <label>First Name<input type="text" name="firstName" required autocomplete="given-name" title="Enter your first name"></label>
+            <label>Last Name<input type="text" name="lastName" required autocomplete="family-name" title="Enter your last name"></label>
+            <label>Organizational Title<input type="text" name="organizationTitle" autocomplete="organization-title" title="Enter your title" pattern="[A-Za-z\\- ]{7,}"></label>
+            <label>Email<input type="email" name="email" required autocomplete="email" placeholder="example@email.com" title="Enter your email"></label>
+            <label> Mobile Phone<input type="tel" name="phone" required autocomplete="tel" title="Enter your mobile number"></label>
+            <label>Organization<input type="text" name="organization" required autocomplete="organization" title="Enter organization name"></label>
+            <label>Membership Level
+                <select name="membership">
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            <label>Business Description<textarea name="description" title="Describe your organization"></textarea></label>
+            <input type="hidden" id="timestamp" name="timestamp">
+            <input type="submit" value="Apply for Membership">
+        </form>
+        <aside class="membership-cards">
+
+            <div class="join-card">
+                <h3>NP Membership</h3>
+                <p>Free for non-profit organizations.</p>
+
+                <button class="open-modal" data-modal="npModal">
+                    Learn More
+                </button>
+            </div>
+
+            <div class="join-card">
+                <h3>Bronze Membership</h3>
+                <p>Perfect for small businesses.</p>
+
+                <button class="open-modal" data-modal="bronzeModal">
+                    Learn More
+                </button>
+            </div>
+
+            <div class="join-card">
+                <h3>Silver Membership</h3>
+                <p>Includes discounts and advertising.</p>
+
+                <button class="open-modal" data-modal="silverModal">
+                    Learn More
+                </button>
+            </div>
+
+            <div class="join-card">
+                <h3>Gold Membership</h3>
+                <p>Our premium membership.</p>
+
+                <button class="open-modal" data-modal="goldModal">
+                    Learn More
+                </button>
+            </div>
+
+        </aside>
+    </main>
+        <dialog id="npModal">
+            <h2>NP Membership</h2>
+
+            <p><strong>Benefits:</strong></p>
+
+            <ul>
+                <li>No membership fee</li>
+                <li>Business listed in the Chamber directory</li>
+                <li>Access to networking events</li>
+                <li>Monthly Chamber newsletter</li>
+                <li>Community involvement opportunities</li>
+            </ul>
+
+            <button class="close-btn">Close</button>
+        </dialog>
+        <dialog id="bronzeModal">
+            <h2>Bronze Membership</h2>
+            <p><strong>Benefits:</strong></p>
+            <ul>
+                <li>Business directory listing</li>
+                <li>Networking event invitations</li>
+                <li>Monthly newsletter</li>
+                <li>Basic member support</li>
+            </ul>
+            <button class="close-btn">Close</button>
+        </dialog>
+
+        <dialog id="silverModal">
+            <h2>Silver Membership</h2>
+
+            <p><strong>Benefits:</strong></p>
+
+            <ul>
+                <li>Everything included in Bronze</li>
+                <li>Discounts on Chamber events</li>
+                <li>Business training workshops</li>
+                <li>Featured business listing</li>
+            </ul>
+
+            <button class="close-btn">Close</button>
+        </dialog>
+
+        <dialog id="goldModal">
+            <h2>Gold Membership</h2>
+            <p><strong>Benefits:</strong></p>
+            <ul>
+                <li>Everything included in Silver</li>
+                <li>Homepage spotlight advertising</li>
+                <li>Premium event discounts</li>
+                <li>Priority sponsorship opportunities</li>
+                <li>VIP networking events</li>
+            </ul>
+            <button class="close-btn">Close</button>
+        </dialog>
+    <footer>
+        <div class="footer-column">
+            <span><strong>Montevideo's Chamber of Commerce</strong></span>
+            <span>Av Italia 2332</span>
+            <span>Montevideo, Uruguay</span>
+            <span>info@montevideocc.org</span>
+            <span>(598) 98123123</span>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/mati.ponce.71" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook" width="16" height="16"></a>
+            <a href="https://www.instagram.com/matip31" target="_blank"><img src="images/instagram.svg" alt="instagram"
+                    width="16" height="16"></a>
+            <a href="www.linkedin.com/in/matip31" target="_blank"><img src="images/linkedin.svg" alt="Linkedin"
+                    width="16" height="16"></a>
+            <a href="https://github.com/Matip31" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+        </div>
+        <div class="footer-column">
+            <span>WDD231 Class Project</span>
+            <span>Matias Ponce</span>
+            <span>© <span id="currentyear"></span> Montevideo's Chamber of Commerce</span>
+        <span id="lastModified"></span>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
