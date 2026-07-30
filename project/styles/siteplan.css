@@ -1,0 +1,102 @@
+:root{
+    --primary-blue: #5DADE2;
+    --primary-green: #4CAF50;
+    --secondary-green:#2E7D32;
+    --accent-yellow: #F4D03F;
+    --background: #FFFFFF;
+    --text: #333333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, nav {
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header{
+    background-color: var(--primary-blue);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 8px solid var(--accent-yellow);
+}
+
+header h1{
+    font-size: 2.5rem;
+}
+
+main{
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section{
+    background-color: var(--background);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.1);
+    border-left: 6px solid var(--primary-green);
+}
+
+section h2{
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-yellow);
+    padding-bottom: .5rem;
+}
+
+section p{
+    margin-bottom: 1rem;
+}
+
+ul{
+    padding-left: 1.5rem;
+}
+
+li{
+    margin-bottom: .75rem;
+}
+
+#blue{
+    color: var(--primary-blue);
+}
+
+#green{
+    color: var(--primary-green);
+}
+
+#dark-green{
+    color: var(--secondary-green);
+}
+
+#yellow{
+    color: var(--accent-yellow);
+}
+
+#white{
+    background-color: var(--background);
+    color: var(--text);
+    border: 1px solid #ddd;
+    padding: .25rem .5rem;
+    display: inline-block;
+}
+#desktop{
+    width: 900px;
+    height: auto;
+}
+#mobile{
+    height: 600px;
+    width: auto;
+}
