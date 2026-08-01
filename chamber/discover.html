@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the home page for Montevideo's chamber of commerce.">
+    <meta name="description" content="This page contains information about interesting places to visit in Montevideo">
     <meta name="author" content="Matias Ponce">
     <meta property="og:description"
-        content="The home page for Montevideo's chamber of commerce. It provides some key information about the chamber, along with information about the location.">
-    <meta property="og:title" content="Home- Montevideo Chamber of Commerce">
+        content="The Discover page for Montevideo's chamber of commerce. It has information about interesting sites to visit in Montevideo.">
+    <meta property="og:title" content="Discover- Montevideo Chamber of Commerce">
     <meta property="og:url" content="https://matip31.github.io/wdd231/">
     <meta property="og:image"
         content="https://matip31.github.io/wdd231/images/matias-picture.webp">
@@ -22,10 +22,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap"
         rel="stylesheet">
-    <script src="scripts/home.js" defer></script>
-    <title>Montevideo's Chamber of Commerce</title>
+    <script src="scripts/discover.js" type="module"></script>
+    <title>Discover Montevideo</title>
 </head>
-
 <body>
     <header>
         <img src="images/buildings.svg" alt="Logo" width="1" height="1">
@@ -34,7 +33,7 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current">
+            <li>
                 <a href="index.html" id="home">Home</a>
             </li>
             <li>
@@ -43,56 +42,15 @@
             <li>
                 <a href="join.html" id="join">Join</a>
             </li>
-            <li>
+            <li class="current">
                 <a href="discover.html" id="discover">Discover</a>
             </li>
         </ul>
     </nav>
-    <main>
-         <section class="hero">
-        <img src="images/hero.webp" alt="City skyline">
-
-        <div class="hero-content">
-            <h1>Welcome to Montevideo Chamber of Commerce</h1>
-            <a href="join.html" class="cta-btn">Join the Chamber</a>
-        </div>
-    </section>
-     <section class="home-grid">
-
-        <article class="events">
-            <h2>Current Events</h2>
-            <p>
-                Business Networking Night this Friday at 7:00 PM.
-                Join local entrepreneurs and business owners for an evening of networking.
-            </p>
-            <a href="#">Learn More</a>
-        </article>
-
-        <article class="card weather-card">
-            <h2>Weather</h2>
-            <div class="current-weather">
-
-                <img id="weather-icon" src="#" alt="icon">
-                <div class="weather-info">
-                    <p class="temperature">
-                    <span id="current-temp"></span>°C
-                    </p>
-                    <p id="weather-desc"></p>
-                </div>
-            </div>
-            <h3>3-Day Forecast</h3>
-            <div id="forecast"></div>
-        </article>
-    </section>
-    <section class="spotlights">
-
-        <h2>Member Spotlights</h2>
-
-        <div id="spotlights"></div>
-
-    </section>
-
-
+    <main class="discover-main">
+        <h1>Best places to go in Montevideo</h1>
+        <p id="visit-message"></p>
+        <div id="allplaces"></div>
     </main>
     <footer>
         <div class="footer-column">
@@ -118,7 +76,6 @@
             <span>© <span id="currentyear"></span> Montevideo's Chamber of Commerce</span>
         <span id="lastModified"></span>
         </div>
-        
     </footer>
 </body>
 

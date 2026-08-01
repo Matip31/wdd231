@@ -451,3 +451,55 @@ dialog::backdrop{
     font-size: 1.6rem;
     border-bottom: 3px solid #6ea4a6;
 }
+.place {
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photograph"
+    "description"
+    "location";
+    background: lightblue;
+    color: #1f2937;
+    border: 1px solid #5B9BD5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.place:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,.2);
+}
+
+.place img {
+    width: 100%;
+    grid-area: photograph;
+}
+
+.place h2 {
+    padding: 5px;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    grid-area: name;
+}
+
+.place address {
+    margin-bottom: 1rem;
+    color: #374151;
+    grid-area: location;
+    padding: 5px;
+}
+
+.place p {
+    margin-bottom: 1.25rem;
+    grid-area: description;
+    padding: 5px;
+}
+#visit-message {
+    background-color: #e0f2fe;
+    border-left: 5px solid #0284c7;
+    color: #1f2937;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    font-weight: 600;
+}
