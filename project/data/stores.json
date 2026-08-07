@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Yo Divina Peluquería",
+    "address": "Av. 18 de Julio 1904, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Professional women's hair salon specializing in cuts, coloring, Kerastase and L'Oréal treatments.",
+    "photo_url": "yodivina.webp",
+    "phone": "+598 2408 1857"
+  },
+  {
+    "name": "KADIN Peluquería y Estética",
+    "address": "Av. Gral. Rivera 3026, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Well-known beauty salon offering haircuts, styling, coloring and beauty treatments.",
+    "photo_url": "kadin.webp",
+    "phone": "+598 2902 6460"
+  },
+  {
+    "name": "Unico Hair Lab",
+    "address": "Bv. España 2114, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Modern salon focused on personalized haircuts, coloring and hair care services.",
+    "photo_url": "unico.webp",
+    "phone": "+598 2411 3089"
+  },
+  {
+    "name": "PELUQUERÍA CONCEPT",
+    "address": "Dr. Lorenzo Carnelli 1243, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Contemporary salon offering professional styling, coloring and hair treatments.",
+    "photo_url": "concept.webp",
+    "phone": "+598 98 836 284"
+  },
+  {
+    "name": "Esquerré Estilistas",
+    "address": "Acevedo Díaz esq. Canaro 2201, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Established hair salon known for styling, coloring and bridal hair services.",
+    "photo_url": "esquerre.webp",
+    "phone": "+598 2408 7679"
+  },
+  {
+    "name": "Amor Mio - Alta Peluquería",
+    "address": "Av. Dr. Francisco Soca 1313, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Upscale salon providing premium haircuts, color services and styling.",
+    "photo_url": "amor.webp",
+    "phone": "+598 2709 2313"
+  },
+  {
+    "name": "Peluquería Maira Estilista",
+    "address": "Andrés Aguiar 1722 Bis, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Hair salon offering cuts, coloring, treatments and general beauty services.",
+    "photo_url": "maira.webp",
+    "phone": "+598 2487 3619"
+  },
+  {
+    "name": "NS-2 Estudio Pelo",
+    "address": "Juan Parra del Riego 1033, Montevideo, Uruguay",
+    "type": "women",
+    "description": "Creative salon focused on hair styling, coloring and personalized looks.",
+    "photo_url": "ns2.webp",
+    "phone": "+598 91 030 589"
+  },
+  {
+    "name": "Galano Barbershop",
+    "address": "Bv. España 2508, Montevideo, Uruguay",
+    "type": "men",
+    "description": "Premium barbershop specializing in classic and modern men's haircuts and beard grooming.",
+    "photo_url": "galano.webp",
+    "phone": "+598 92 189 849"
+  },
+  {
+    "name": "Galano Barbershop Carrasco",
+    "address": "Av. Alfredo Arocena 1552, Montevideo, Uruguay",
+    "type": "men",
+    "description": "Modern men's barbershop offering haircuts, beard trims and grooming services.",
+    "photo_url": "galanocarrasco.webp",
+    "phone": "+598 92 402 360"
+  },
+  {
+    "name": "DMJ Studio",
+    "address": "Yaguarón 1390, Montevideo, Uruguay",
+    "type": "men",
+    "description": "Popular barbershop providing fades, classic cuts and beard styling.",
+    "photo_url": "dmj.webp",
+    "phone": "+598 96 963 686"
+  },
+  {
+    "name": "Techno Barber",
+    "address": "Av. 18 de Julio 959, Montevideo, Uruguay",
+    "type": "men",
+    "description": "Urban barber shop specializing in modern hairstyles and beard grooming.",
+    "photo_url": "techno.webp",
+    "phone": "+598 97 097 636"
+  },
+  {
+    "name": "Brotherhood BarberShop",
+    "address": "Guayaquí 3294, Montevideo, Uruguay",
+    "type": "men",
+    "description": "Highly rated neighborhood barbershop with classic cuts and beard care.",
+    "photo_url": "brotherhood.webp",
+    "phone": "+598 97 582 481"
+  },
+  {
+    "name": "Barbería Montevideo",
+    "address": "Av. Gral. Rivera 3184, Montevideo, Uruguay",
+    "type": "men",
+    "description": "Traditional barber shop offering men's haircuts, beard trims and hot towel shaves.",
+    "photo_url": "montevideo.webp",
+    "phone": "+598 98 057 705"
+  },
+  {
+    "name": "Mister Barbershop",
+    "address": "Av. Gral. José Garibaldi 2487, Montevideo, Uruguay",
+    "type": "men",
+    "description": "Professional men's barbershop focused on quality haircuts and beard grooming.",
+    "photo_url": "mister.webp",
+    "phone": "+598 95 766 099"
+  }
+]

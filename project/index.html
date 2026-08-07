@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the home page for MonteviHair-Hair Salon's Asociation.">
+    <meta name="author" content="Matias Ponce">
+    <meta property="og:description"
+        content="The home page for MonteviHair-Hair Salon's Asociation. It provides some key information about the Asociation, along with information about the location's weather.">
+    <meta property="og:title" content="Home- MonteviHair-Hair Salon's Asociation">
+    <meta property="og:url" content="https://matip31.github.io/wdd231/">
+    <meta property="og:image"
+        content="https://matip31.github.io/wdd231/images/matias-picture.webp">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script type="module" src="scripts/home.mjs"></script>
+    <title>MonteviHair</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Logo" width="1" height="1">
+        <span>MonteviHair</span>
+        <button id="ham" aria-label="Open navigation menu" class="hamburguer"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current">
+                <a href="index.html" id="home">Home</a>
+            </li>
+            <li>
+                <a href="directory.html" id="directory">Directory</a>
+            </li>
+            <li>
+                <a href="schedule.html" id="join">Schedule</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+         <section class="hero">
+        <img src="images/hero-image.webp" alt="Hair Salon">
+
+        <div class="hero-content">
+            <h1>Welcome to MonteviHair-Hair Salon's Asociation.</h1>
+            <a href="directory.html" class="cta-btn">Take a look</a>
+        </div>
+    </section>
+     <section class="home-grid">
+        <button class="open-modal" data-modal="about">
+                    About Us
+                </button>
+        <article class="card weather-card">
+            <h2>Weather</h2>
+            <div class="current-weather">
+
+                <img id="weather-icon" src="#" alt="icon">
+                <div class="weather-info">
+                    <p class="temperature">
+                    <span id="current-temp"></span>°C
+                    </p>
+                    <p id="weather-desc"></p>
+                </div>
+            </div>
+            <h3>3-Day Forecast</h3>
+            <div id="forecast"></div>
+        </article>
+    </section>
+    </main>
+    <dialog id="about">
+            <h2>About Us</h2>
+            <p>
+                Welcome to MonteviHair, your trusted guide to discovering the best hair salons across Uruguay. Whether you're looking for a fresh haircut, a new style, professional coloring, or expert grooming, our platform connects you with a wide variety of men's and women's salons in one convenient place.
+                Our mission is to make finding the perfect salon simple and stress-free. Browse detailed salon profiles, explore services and contact information, and choose the option that best fits your style and needs.
+                Through MonteviHair, you can also schedule appointments directly with participating salons, making it easier than ever to plan your next visit. We believe everyone deserves access to quality hair care, and we're committed to supporting local salons while helping clients find trusted professionals throughout Uruguay.
+                Whether you're searching for a classic barber, a modern hair studio, or a full-service beauty salon, MonteviHair is here to help you look and feel your best.
+            </p>
+
+            <button class="close-btn">Close</button>
+        </dialog>
+    <footer>
+        <div class="footer-column">
+            <span><strong>MonteviHair</strong></span>
+            <span>Montevideo, Uruguay</span>
+            <span>info@montevihair.org</span>
+            <span>(598) 98123123</span>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/mati.ponce.71" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook" width="16" height="16"></a>
+            <a href="https://www.instagram.com/matip31" target="_blank"><img src="images/instagram.svg" alt="instagram"
+                    width="16" height="16"></a>
+            <a href="www.linkedin.com/in/matip31" target="_blank"><img src="images/linkedin.svg" alt="Linkedin"
+                    width="16" height="16"></a>
+            <a href="https://github.com/Matip31" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+        </div>
+        <div class="footer-column">
+            <span>WDD231 Class Project</span>
+            <span>Matias Ponce</span>
+            <span>© <span id="currentyear"></span> MonteviHair</span>
+        <span id="lastModified"></span>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
