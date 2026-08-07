@@ -54,7 +54,6 @@ function displayForecast(data){
 
     forecast.innerHTML = "";
 
-    // aproximadamente cada 24 horas
     const days = [8,16,24];
 
     days.forEach(index => {
